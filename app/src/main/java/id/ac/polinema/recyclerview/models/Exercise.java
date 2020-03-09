@@ -1,15 +1,17 @@
 package id.ac.polinema.recyclerview.models;
 
-public class TeamLogo {
+public class Exercise {
     public String logo;
-    public String name;
+    public  String name;
+    public String teks;
 
-    public TeamLogo() {
+    public Exercise() {
     }
 
-    public TeamLogo(String logo, String name) {
+    public Exercise(String logo, String name, String teks) {
         this.logo = logo;
         this.name = name;
+        this.teks = teks;
     }
 
     public String getLogo() {
@@ -26,5 +28,13 @@ public class TeamLogo {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getTeks() {
+        return teks;
+    }
+
+    public void setTeks(String teks) {
+        this.teks = teks;
     }
 }

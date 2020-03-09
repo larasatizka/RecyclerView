@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.ac.polinema.recyclerview"
-    >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.polinema.recyclerview">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,9 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-        <activity android:name=".ViewTypeActivity"></activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".fast_adapter"></activity>
+        <activity android:name=".exercise" />
+        <activity android:name=".ViewTypeActivity" />
         <activity android:name=".GridActivity" />
         <activity android:name=".LogoActivity" />
         <activity android:name=".SimpleActivity" />
